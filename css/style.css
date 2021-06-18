@@ -1,0 +1,39 @@
+html,
+body,
+header,
+.view {
+  height: 100vh;
+}
+}
+#intro {
+  background: url("https://user-images.githubusercontent.com/84569428/119513960-3fa68d80-bda7-11eb-906c-106dacb9662d.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+
+*{  
+  margin: 0px;  
+  padding: 0px;  
+}  
+video{  
+  position: fixed;  
+  right: 0px;  
+  bottom: 0px;  
+  min-width: 100%;  
+  min-height: 100%;  
+  height: auto;  
+  width: auto;  
+  /*加滤镜*/
+  /*filter: blur(15px); //背景模糊设置 */
+  /*-webkit-filter: grayscale(100%);*/  
+  /*filter:grayscale(100%); //背景灰度设置*/  
+  z-index:-11
+}  
+source{  
+  min-width: 100%;  
+  min-height: 100%;  
+  height: auto;  
+  width: auto;  
+} 
